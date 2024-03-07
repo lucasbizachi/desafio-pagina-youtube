@@ -1,0 +1,54 @@
+
+body {
+    width: 1400px;
+    margin: 0 auto;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem
+}
+
+.container-menu-logo {
+    background-color: cyan;
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
+
+.menu-hamb {
+    width: 30px;
+}
+
+.search-bar {
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+input {
+    width: 450px;
+    height: 25px;
+}
+
+.search-bar img {
+    position: absolute;
+    right: 5px; 
+    width: 25px;
+    
+}
+
+.avatar-icons {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.camera {
+    width: 32px;
+}
+
+.notif {
+    width: 25px;
+}
