@@ -69,17 +69,8 @@ ul{
     color: #515151;
 }
 
-nav {
-    margin: 9px 5px;
-}
-
-a {
-    background: #d3d3d3;
-    padding: 4px 10px;
-    border-radius: 4px;
-    margin-left: 16px;
-    text-decoration: none;
-    color: black;
+.section-aside img {
+    border-radius: 5px;
 }
 
 .section-aside {
@@ -88,3 +79,31 @@ a {
     flex-direction: column;
     gap: 1rem;
 }
+
+.content-text {
+    width: 200px;
+    height: 90px;
+}
+
+.content-text ul {
+    display: flex;
+    flex-direction: column;
+}
+
+.section-aside h3 {
+    margin-top: 0;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 16px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.section-aside p {
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 14px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
