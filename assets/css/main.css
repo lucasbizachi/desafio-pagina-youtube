@@ -1,4 +1,8 @@
 
+* {
+    font-family: 'Roboto', sans-serif;
+}
+
 .container {
     margin: 0 auto;
     display: flex;
@@ -7,7 +11,6 @@
 }
 
 main {
-    background-color: darkgoldenrod;
     width: 952px;
     height: 746px;
 }
@@ -15,6 +18,7 @@ main {
 iframe {
     width: 952px;
     height: 537px;
+    border-radius: 10px;
 }
 
 aside {
@@ -49,5 +53,23 @@ ul{
     display: flex;
     align-items: center;
     gap: 1.5rem;
+}
+
+.visualization {
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 16px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.text-info {
+    width: 510px;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 16px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #515151;
 }
 
