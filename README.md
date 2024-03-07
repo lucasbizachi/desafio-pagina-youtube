@@ -1,2 +1,2 @@
 # desafio-pagina-youtube
-Desafio da Plataforma DIO sobre CSS.
+Desafio de CSS da Plataforma DIO que emprega a técnica Flexbox como ferramenta.
